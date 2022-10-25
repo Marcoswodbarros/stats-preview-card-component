@@ -1,0 +1,18 @@
+.attribution{
+    align-items: center;
+    color: var(--color-slightly-transparent-white);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-inter);
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.footer__span{
+    margin-bottom: .3rem;
+}
+
+.footer__link{
+    color: var(--color-soft-violet);
+    text-decoration: none;
+}
