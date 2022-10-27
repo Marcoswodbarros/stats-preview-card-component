@@ -8,7 +8,6 @@ main{
 }
 
 .main__img{
-    
     background-image: url(../images/image-header-mobile.jpg);
     border-radius: .5rem .5rem 0rem 0rem;
     background-size: cover;
@@ -23,6 +22,7 @@ main{
 }
 
 .main__container--text{
+    margin-bottom: 2rem;
     margin-top: 1rem;
     padding: 1rem 2rem;
 }
@@ -45,27 +45,82 @@ h1{
     text-align: center;
 }
 
-article{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+.main__img--desktop{
+    display: none;
 }
 
-h2{
-    color: var(--color-slightly-transparent-white);
-    font-family: var(--font-inter);
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: .5rem;
-    text-align: center;
-}
 
-.article__text{
-    color: var( --color-lightly-transparent-white);
-    font-size: .7rem;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-}
 
-.final{
-    margin-bottom: 2rem;
+
+
+@media screen and (min-width: 1440px){
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+    }    
+
+    .main__img{
+        display: none;
+    }
+
+    .main__container--text{
+        padding-left: 5rem;
+        padding-top: 2rem;
+        width: 42vw;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+        text-align: start;
+    }
+
+    .main__text{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: start;
+    }
+
+    #main__lonelyWord{
+        font-size: 2.5rem;
+    }
+
+    .main__img--desktop{
+        display: inline-block;
+        background-image: url(../images/image-header-desktop.jpg);
+        border-radius: 0rem .5rem .5rem 0rem;
+        background-size: cover;
+        height: 65vh;
+        width: 65vw;
+    }
+
+    .main__container--section{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__companies{
+        margin-left: 5rem;
+    }
+
+    .section__templates{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        text-align: start;
+    }
+
+    .section__text{
+        font-size: 1rem;
+    }
 }

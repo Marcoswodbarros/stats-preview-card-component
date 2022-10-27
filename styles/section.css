@@ -1,0 +1,59 @@
+h2{
+    color: var(--color-slightly-transparent-white);
+    font-family: var(--font-inter);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.section__companies, .section__templates, .section__queries{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.section__queries{
+    margin-bottom: 3rem;
+}
+
+.section__text{
+    color: var( --color-lightly-transparent-white);
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+
+
+
+@media screen and (min-width: 1440px){
+    .main__container--section{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__companies{
+        margin-left: 5rem;
+    }
+
+    .section__templates{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        text-align: start;
+    }
+
+    .section__text{
+        font-size: 1rem;
+    }
+}
