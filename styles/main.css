@@ -4,7 +4,7 @@ main{
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    width: 56rem;
 }
 
 .main__img{
@@ -53,74 +53,82 @@ h1{
 
 
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1024px){
     main{
-        display: flex;
         flex-direction: row;
-        margin-top: 3rem;
-    }    
+        height: 60vh;
+    }
 
     .main__img{
         display: none;
+    }    
+    
+    .main__img--desktop{
+        display: inline-block;
+        background-image: url(../images/image-header-desktop.jpg);
+        border-radius: 0rem .5rem .5rem 0rem;
+        background-size: cover;
+        height: 60vh;
+        width: 40rem;
+    }
+
+    .main__container--all{
+        margin-left: 1.5rem;
     }
 
     .main__container--text{
-        padding-left: 5rem;
-        padding-top: 2rem;
-        width: 42vw;
+        margin-top: 2rem;
+        width: 27rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+        text-align: start;
+        width: 21rem;
+    }
+
+    #main__lonelyWord{
+        font-size: 1.8rem;
+    }
+
+    .main__text{
+        font-size: .75rem;
+        text-align: start;
+        width: 18rem;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1440px){    
+    main{
+        width: 80rem;
+    }
+
+    .main__container--all{
+        position: relative;
+        left: 2rem;
+        width: 40rem;
     }
 
     h1{
         font-size: 2.5rem;
-        line-height: 3.5rem;
-        margin-bottom: 2rem;
-        text-align: start;
-    }
-
-    .main__text{
-        font-size: 1.2rem;
-        line-height: 2rem;
-        text-align: start;
+        line-height: 3rem;
+        width: 27rem;
     }
 
     #main__lonelyWord{
         font-size: 2.5rem;
     }
 
-    .main__img--desktop{
-        display: inline-block;
-        background-image: url(../images/image-header-desktop.jpg);
-        border-radius: 0rem .5rem .5rem 0rem;
-        background-size: cover;
-        height: 65vh;
-        width: 65vw;
-    }
-
-    .main__container--section{
-        display: flex;
-        margin-top: 5rem;
-    }
-
-    section{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .section__companies{
-        margin-left: 5rem;
-    }
-
-    .section__templates{
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-
-    h2{
-        font-size: 1.8rem;
-        text-align: start;
-    }
-
-    .section__text{
+    .main__text{
         font-size: 1rem;
+        line-height: 1.7rem;
+        width: 24rem;
+    }
+
+    .main__img--desktop{
+        width: 40rem;
     }
 }
