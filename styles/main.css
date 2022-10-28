@@ -4,7 +4,11 @@ main{
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    width: 56rem;
+    width: 85vw;
+}
+
+.main__container--all{
+    margin-top: 1.5rem;
 }
 
 .main__img{
@@ -15,15 +19,8 @@ main{
     width: 85vw;
 }
 
-#main__lonelyWord{
-    color: var(--color-soft-violet);
-    font-family: var(--font-inter);
-    font-size: 1.6rem;
-}
-
 .main__container--text{
     margin-bottom: 2rem;
-    margin-top: 1rem;
     padding: 1rem 2rem;
 }
 
@@ -34,6 +31,12 @@ h1{
     font-size: 1.6rem;
     line-height: 2rem;
     text-align: center;
+}
+
+#main__lonelyWord{
+    color: var(--color-soft-violet);
+    font-family: var(--font-inter);
+    font-size: 1.6rem;
 }
 
 .main__text{
@@ -56,7 +59,9 @@ h1{
 @media screen and (min-width: 1024px){
     main{
         flex-direction: row;
-        height: 60vh;
+        height: 50vh;
+        margin-top: 3rem;
+        width: 65vw;
     }
 
     .main__img{
@@ -65,36 +70,33 @@ h1{
     
     .main__img--desktop{
         display: inline-block;
-        background-image: url(../images/image-header-desktop.jpg);
+        background: url(../images/image-header-desktop.jpg), rgb(106, 2, 148);
         border-radius: 0rem .5rem .5rem 0rem;
         background-size: cover;
-        height: 60vh;
-        width: 40rem;
+        height: 100%;
+        width: 50%;
     }
 
     .main__container--all{
-        margin-left: 1.5rem;
+        width: 50%;
     }
 
     .main__container--text{
         margin-top: 2rem;
-        width: 27rem;
     }
 
     h1{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         text-align: start;
-        width: 21rem;
     }
 
     #main__lonelyWord{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .main__text{
-        font-size: .75rem;
+        font-size: .65rem;
         text-align: start;
-        width: 18rem;
     }
 }
 
@@ -103,19 +105,19 @@ h1{
 
 @media screen and (min-width: 1440px){    
     main{
-        width: 80rem;
+        margin-top: 8rem;
+        width: 80vw;
     }
 
     .main__container--all{
         position: relative;
         left: 2rem;
-        width: 40rem;
+        width: 50%;
     }
 
     h1{
         font-size: 2.5rem;
         line-height: 3rem;
-        width: 27rem;
     }
 
     #main__lonelyWord{
@@ -125,10 +127,10 @@ h1{
     .main__text{
         font-size: 1rem;
         line-height: 1.7rem;
-        width: 24rem;
+        width: 80%;
     }
 
     .main__img--desktop{
-        width: 40rem;
+        width: 50%;
     }
 }

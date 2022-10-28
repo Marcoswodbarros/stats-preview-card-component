@@ -15,7 +15,7 @@ h2{
 }
 
 .section__queries{
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .section__text{
@@ -32,6 +32,8 @@ h2{
     .main__container--section{
         display: flex;
         margin-left: 2rem;
+        position: relative;
+        bottom: 1.5rem;
     }
 
     .section__companies, .section__templates, .section__queries{
@@ -39,11 +41,11 @@ h2{
     }
 
     h2{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .section__text{
-        font-size: .54rem;
+        font-size: .53rem;
     }
 
     .section__templates{

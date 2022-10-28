@@ -16,3 +16,23 @@
     color: var(--color-soft-violet);
     text-decoration: none;
 }
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    .attribution{
+        font-size: .6rem;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1440px){
+    .attribution{
+        font-size: .8rem;
+    }
+}
