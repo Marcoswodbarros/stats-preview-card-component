@@ -1,0 +1,69 @@
+.section__companies, .section__templates, .section__queries{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+h2{
+    color: var(--color-slightly-transparent-white);
+    font-family: var(--font-inter);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.section__queries{
+    margin-bottom: 2.5rem;
+}
+
+.section__text{
+    color: var( --color-lightly-transparent-white);
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    .main__container--section{
+        display: flex;
+        margin-left: 2rem;
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .section__companies, .section__templates, .section__queries{
+        align-items: flex-start;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    .section__text{
+        font-size: .53rem;
+    }
+
+    .section__templates{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1440px){
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .section__text{
+        font-size: .75rem;
+    }
+}
