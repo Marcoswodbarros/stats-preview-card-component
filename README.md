@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](https://user-images.githubusercontent.com/108278189/203685904-faf9586a-8023-40d1-82b1-4aca5c0ad657.png)
-![Tablet](https://user-images.githubusercontent.com/108278189/203685834-fb6e11a3-56e3-483f-b349-6e679a9191dd.png)
-![Desktop](https://user-images.githubusercontent.com/108278189/203685969-28d52e9e-8c87-4ef8-af53-5f323c1ebfdb.png)
+
+
+
 
 ### Links
 
